@@ -18,8 +18,16 @@ scikit-learn
 ## Instalación
 pip install pandas numpy plotly scikit-learn
 
+## Datos
+
+Este proyecto requiere un archivo datos_financieros.csv que no está incluido en el repositorio debido a su tamaño.
+
+**Opciones para obtener los datos:**
+- Descargar desde: https://www.kaggle.com/datasets/ealaxi/paysim1?resource=download
+- Contactar al autor para acceso a los datos
+
 ## Estructura de Datos
-El modelo espera un archivo CSV (datos_financieros.csv) con las siguientes columnas:
+El archivo CSV (datos_financieros.csv) contiene las siguientes columnas:
 
 type: Tipo de transacción (CASH_OUT, PAYMENT, CASH_IN, TRANSFER, DEBIT)
 amount: Monto de la transacción
